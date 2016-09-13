@@ -1,0 +1,4 @@
+{"draw":1,"recordsTotal":57,"recordsFiltered":57,"data":[["Airi Satou","162700","33"],["Angelica Ramos"
+,"1200000","47"],["Ashton Cox","86000","66"],["Bradley Greer","132000","41"],["Brenden Wagner","206850"
+,"28"],["Brielle Williamson","372000","61"],["Bruno Nash","163500","38"],["Caesar Vance","106450","21"
+],["Cara Stevens","145600","46"],["Cedric Kelly","433060","22"]]}

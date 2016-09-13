@@ -1,0 +1,9 @@
+@if(isset($data->createdOn))
+	
+		@if((strtotime($data->createdOn)) > (strtotime(date("Y-m-d"))))
+			Critical
+		@elseif((strtotime($data->createdOn)) == (strtotime(date("Y-m-d"))))
+			Today
+		@endif
+	
+@endif

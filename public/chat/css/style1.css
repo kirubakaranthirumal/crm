@@ -1,0 +1,138 @@
+/* CSS Document */
+body {
+    font:12px arial;
+    background-color: #ffffff !important;
+    text-align:center;
+    padding:35px; }
+  
+form, p, span {
+    margin:0;
+    padding:0; }
+  
+input { font:12px arial; }
+  
+a {
+    color:#0000FF;
+    text-decoration:none; }
+  
+a:hover { text-decoration:underline; }
+#wrapper{height:525px;width:800px !important}
+#wrapper, #loginform {
+    margin:0 auto;
+    padding-bottom:25px;
+    background:#EBF4FB;
+    width:504px;
+    border:1px solid #ACD8F0; }
+  
+#loginform { }
+.loginheading
+{
+    text-align:center;width:100%;margin-top:20px;padding-bottom:10px;margin-bottom:30px;border-bottom:1px solid #ACD8F0;font-weight:bold;
+}  
+#loginform p { margin: 5px; }
+.loginlabel
+{
+    text-align:left;float:left;width:120px;
+}
+
+.fieldrow
+{
+    padding-bottom:10px;padding-left:20px;
+}
+.secondarymenu
+{
+    text-align:center;width:100%;margin-top:10px;padding-top:10px;border-top:1px solid #ACD8F0;line-height:25px;
+}
+.loginwrapper
+{
+    padding-bottom:10px;padding-left:20px;padding-right:20px;
+}
+.logincontent
+{
+    width:350px;margin:0px auto;
+}
+.navigation
+{
+    text-align:center;
+    margin-top:10px;
+}
+.img-responsive
+{
+    width:40px;
+}
+.social.btn
+{
+margin-right:10px;
+}
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    height:365px;
+    border:1px solid #ACD8F0;
+    overflow:auto; }
+  
+#usermsg {
+    width:375px;
+    height:20px;
+    font-size:12px;
+    float:left;
+    border:1px solid #ACD8F0; }
+  
+#submit { width: 60px; }
+#submitmsg{background:skyblue;border:1px solid #ACD8F0;height:23px;width:50px;float:left;margin-left:5px;} 
+.error { color: #ff0000;padding-top:20px;text-align:center; }
+  
+#menu { padding:12.5px 0px 12.5px 0px; }
+  
+.welcome { float:left; }
+.currentchatroom { float:left;clear:both;padding-top:10px; }
+  
+.logout { float:right; }
+  
+.msgln { margin:0 0 2px 0; }
+
+/** Added By Michale **/
+#content{width:100%;}
+#leftcontent{width:55%;float:left;padding:0px 0px 20px 20px;}
+#rightcontent{width:34%;float:left;padding:20px 20px 20px 0px;}
+#mychatrooms,#whoisonline{
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:10px;
+    background:#fff;
+    margin-top:5px;
+    margin-left:20px;
+    height:135px;
+    width:275px;
+    border:1px solid #ACD8F0;
+    overflow:scroll; 
+  }
+
+  .chatroomlist
+  {
+    height:10px;
+    border-bottom:1px solid #ACD8F0;
+    padding:10px 0px 10px 0px;
+    list-style: none;
+  }
+  .chatroomheading,.whoisonlineheading
+  {
+    padding-left:20px;
+    font-weight:bold;
+  }
+  .menuitems
+  {
+    float:right;
+  }
+  .invite,.approve
+  {
+    cursor:pointer;
+  }
+  input[type=text],input[type=password]
+  {
+    width:200px;
+  }
